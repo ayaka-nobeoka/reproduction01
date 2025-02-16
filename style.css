@@ -1,0 +1,67 @@
+body {
+    font-family: "FOT-筑紫A丸ゴシック Std R", "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+.header {
+    width: 1130px;
+}
+.header-area {
+    width: 1030px;
+    margin: 0 auto;
+}
+.top-nav-area {
+    display: flex;
+}
+.list {
+    display: flex;
+    column-gap: 30px;
+    font-size: 14px;
+    padding: 20px 15px;
+    white-space: nowrap
+}
+.contact-button {
+    display: block;
+    width: 320px;
+    text-align: center;
+    background-color: #5bade1;
+    color: #fff;
+    padding: 12px 0;
+    width: 320px;
+    border-radius: 20px;
+}
+.tell {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.tell::before {
+    display: block;
+    position: absolute;
+    left: 85px;
+    content: url('./img/tel.svg');
+}
+.under-nav-area {
+    display: flex;
+}
+.js-list {
+    display: flex;
+    column-gap: 30px;
+    font-size: 14px;
+    padding: 20px 15px;
+    white-space: nowrap;
+    margin: 0 292px;
+}
+
+.Information-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Information-img {
+    background-color: #ebf5fb;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
